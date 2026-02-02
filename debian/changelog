@@ -1,12 +1,580 @@
-unrar-nonfree (1:5.6.6-1) UNRELEASED; urgency=medium
+unrar-nonfree (1:7.2.3-2) unstable; urgency=medium
 
-  * update
+  * Upgrade Debian standard to 4.7.3
 
- -- Martin Meredith <mez@debian.org>  Thu, 19 May 2022 01:35:10 -0400
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 27 Dec 2025 13:20:28 +0900
+
+unrar-nonfree (1:7.2.3-1) unstable; urgency=medium
+
+  * New upstream version 7.2.3
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 19 Dec 2025 17:22:00 +0900
+
+unrar-nonfree (1:7.2.2-1) unstable; urgency=medium
+
+  * New upstream version 7.2.2
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 21 Nov 2025 00:48:28 +0900
+
+unrar-nonfree (1:7.2.1-1) unstable; urgency=medium
+
+  * Rules-Requires-Root is "no" by default
+  * New upstream version 7.2.1
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 30 Oct 2025 20:22:27 +0900
+
+unrar-nonfree (1:7.1.10-3) unstable; urgency=medium
+
+  * Drop Emacs mode line from debian/watch
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Mon, 29 Sep 2025 08:10:00 +0900
+
+unrar-nonfree (1:7.1.10-2) unstable; urgency=medium
+
+  * Use V5 format for watch file
+  * Use local configuration  file for salsa CI
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 23 Aug 2025 11:10:16 +0900
+
+unrar-nonfree (1:7.1.10-1) unstable; urgency=medium
+
+  * New upstream version 7.1.10
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 31 Jul 2025 01:03:42 +0900
+
+unrar-nonfree (1:7.1.9-1) unstable; urgency=medium
+
+  * Update copyright years
+  * New upstream version 7.1.9
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 25 Jul 2025 11:00:53 +0900
+
+unrar-nonfree (1:7.1.8-1) unstable; urgency=medium
+
+  * New upstream version 7.1.8
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 27 Jun 2025 10:34:13 +0900
+
+unrar-nonfree (1:7.1.7-1) unstable; urgency=medium
+
+  * New upstream version 7.1.7
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Wed, 11 Jun 2025 01:10:13 +0900
+
+unrar-nonfree (1:7.1.6-1) unstable; urgency=medium
+
+  * New upstream version 7.1.6
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Tue, 25 Mar 2025 01:50:03 +0900
+
+unrar-nonfree (1:7.1.5-3) unstable; urgency=medium
+
+  * Describe "-om" option
+  * Update manpage
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 15 Mar 2025 15:20:38 +0900
+
+unrar-nonfree (1:7.1.5-2) unstable; urgency=medium
+
+  * Upgrade Debian policy to 4.7.2
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 01 Mar 2025 20:45:50 +0900
+
+unrar-nonfree (1:7.1.5-1) unstable; urgency=medium
+
+  * New upstream version 7.1.5
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 27 Feb 2025 00:27:49 +0900
+
+unrar-nonfree (1:7.1.4-2) unstable; urgency=medium
+
+  * Upgrade Debian policy standards to 4.7.1
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sun, 23 Feb 2025 08:18:53 +0900
+
+unrar-nonfree (1:7.1.4-1) unstable; urgency=medium
+
+  * New upstream version 7.1.4
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Tue, 18 Feb 2025 13:24:24 +0900
+
+unrar-nonfree (1:7.1.3-1) unstable; urgency=medium
+
+  * New upstream version 7.1.3
+  * Rediff patches
+  * Lintian fix: unused-override package-name-doesnt-match-sonames
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Mon, 20 Jan 2025 00:18:02 +0900
+
+unrar-nonfree (1:7.1.2-3) unstable; urgency=medium
+
+  * Typo fix
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sun, 08 Dec 2024 01:32:14 +0900
+
+unrar-nonfree (1:7.1.2-2) unstable; urgency=medium
+
+  * Add notes about internal compilation errors on i386
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 07 Dec 2024 20:21:11 +0900
+
+unrar-nonfree (1:7.1.2-1) unstable; urgency=medium
+
+  * New upstream version 7.1.2
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 05 Dec 2024 15:12:23 +0900
+
+unrar-nonfree (1:7.1.1-1) unstable; urgency=medium
+
+  * New upstream version 7.1.1
+  * Rediff patches
+  * Update symbols file
+  * Use "c++" keyword for better symbols file
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 09 Nov 2024 00:15:58 +0900
+
+unrar-nonfree (1:7.0.9-1) unstable; urgency=medium
+
+  * New upstream version 7.0.9
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 16 May 2024 08:00:47 +0900
+
+unrar-nonfree (1:7.0.8-1) unstable; urgency=medium
+
+  * New upstream version 7.0.8
+  * Rediff patches
+  * Standards-Version: 4.7.0 (routine-update)
+  * Remove trailing whitespace in debian/copyright (routine-update)
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 25 Apr 2024 22:25:11 +0900
+
+unrar-nonfree (1:7.0.7-1) unstable; urgency=medium
+
+  [ Steve Langasek ]
+  * unrar-nonfree: NMU diff for 64-bit time_t transition
+
+  [ YOKOTA Hiroshi ]
+  * Update symbol index
+  * New upstream version 7.0.7
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 01 Mar 2024 11:42:59 +0900
+
+unrar-nonfree (1:7.0.6-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Rename libraries for 64-bit time_t transition.  Closes: #1063014
+
+ -- Steve Langasek <vorlon@debian.org>  Wed, 28 Feb 2024 21:19:32 +0000
+
+unrar-nonfree (1:7.0.6-1) unstable; urgency=medium
+
+  * New upstream version 7.0.6
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 25 Jan 2024 22:35:38 +0900
+
+unrar-nonfree (1:7.0.5-1) unstable; urgency=medium
+
+  * New upstream version 7.0.5
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 14 Dec 2023 11:18:15 +0900
+
+unrar-nonfree (1:7.0.4-1) unstable; urgency=medium
+
+  * New upstream version 7.0.4
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 24 Nov 2023 19:56:39 +0900
+
+unrar-nonfree (1:7.0.3-1) unstable; urgency=medium
+
+  * Extend copyright years
+  * New upstream version 7.0.3
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 09 Nov 2023 13:20:45 +0900
+
+unrar-nonfree (1:7.0.2-1) unstable; urgency=medium
+
+  * New upstream version 7.0.2
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 26 Oct 2023 08:12:04 +0900
+
+unrar-nonfree (1:7.0.1-2) unstable; urgency=medium
+
+  * Avoid internal compiler error on i386
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 26 Oct 2023 01:08:38 +0900
+
+unrar-nonfree (1:7.0.1-1) unstable; urgency=medium
+
+  * New upstream version 7.0.1
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Wed, 25 Oct 2023 15:38:52 +0900
+
+unrar-nonfree (1:6.2.12-1) unstable; urgency=medium
+
+  * New upstream version 6.2.12
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 05 Oct 2023 20:49:53 +0900
+
+unrar-nonfree (1:6.2.11-1) unstable; urgency=medium
+
+  * New upstream version 6.2.11
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Wed, 20 Sep 2023 21:41:29 +0900
+
+unrar-nonfree (1:6.2.10-2) unstable; urgency=medium
+
+  * Security advisory ZDI-CAN-21233 is published as CVE-2023-40477 / ZDI-23-1152
+    https://security-tracker.debian.org/tracker/CVE-2023-40477
+    https://www.zerodayinitiative.com/advisories/ZDI-23-1152/
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sun, 27 Aug 2023 09:40:14 +0900
+
+unrar-nonfree (1:6.2.10-1) unstable; urgency=medium
+
+  * Add note for security fix: CVE-2023-40477 / ZDI-23-1152 (ZDI-CAN-21233)
+  * Forward patches to upstream
+  * New upstream version 6.2.10
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 03 Aug 2023 21:35:31 +0900
+
+unrar-nonfree (1:6.2.9-1) unstable; urgency=medium
+
+  This version fixes security issue: ZDI-23-1152 (ZDI-CAN-21233).
+  See also: https://www.zerodayinitiative.com/advisories/ZDI-23-1152/
+
+  ZDI-23-1152 is also filed as CVE-2023-40477 .
+  https://www.cve.org/CVERecord?id=CVE-2023-40477
+
+  * New upstream version 6.2.9
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 21 Jul 2023 00:42:46 +0900
+
+unrar-nonfree (1:6.2.8-1) unstable; urgency=medium
+
+  * Rediff patches
+  * New upstream version 6.2.8
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 02 Jun 2023 18:55:10 +0900
+
+unrar-nonfree (1:6.2.7-1) unstable; urgency=medium
+
+  * New upstream version 6.2.7
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Mon, 15 May 2023 13:19:00 +0900
+
+unrar-nonfree (1:6.2.6-1) unstable; urgency=medium
+
+  * New upstream version 6.2.6
+  * Rediff patches
+  * Manually clean previous object files for next build target
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 23 Feb 2023 12:31:56 +0900
+
+unrar-nonfree (1:6.2.5-1) unstable; urgency=medium
+
+  * New upstream version 6.2.4
+  * New upstream version 6.2.5
+  * Update explanation comment in test code
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Wed, 25 Jan 2023 12:03:31 +0900
+
+unrar-nonfree (1:6.2.3-2) unstable; urgency=medium
+
+  * Upgrade Debian standards
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sun, 18 Dec 2022 20:01:24 +0900
+
+unrar-nonfree (1:6.2.3-1) unstable; urgency=medium
+
+  * New upstream version 6.2.3
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 16 Dec 2022 12:09:58 +0900
+
+unrar-nonfree (1:6.2.2-2) unstable; urgency=medium
+
+  [ Graham Inggs ]
+  * Mark one symbol optional for LTO
+
+  [ YOKOTA Hiroshi ]
+  * Enable link time optimization (LTO)
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 03 Dec 2022 16:08:56 +0900
+
+unrar-nonfree (1:6.2.2-1) unstable; urgency=medium
+
+  * New upstream version 6.2.2
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Wed, 16 Nov 2022 08:42:55 +0900
+
+unrar-nonfree (1:6.2.1-2) unstable; urgency=medium
+
+  * Lintian fix: symbols-file-contains-current-version-with-debian-revision
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 27 Oct 2022 13:08:48 +0900
+
+unrar-nonfree (1:6.2.1-1) unstable; urgency=medium
+
+  * New upstream version 6.2.1
+  * Rediff patches
+  * Update symbols file
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 27 Oct 2022 10:56:42 +0900
+
+unrar-nonfree (1:6.1.7-4) unstable; urgency=medium
+
+  * Revert "Enable link time optimization (LTO)"
+    LTO breaks reproducible build.
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 27 Aug 2022 18:37:29 +0900
+
+unrar-nonfree (1:6.1.7-3) unstable; urgency=medium
+
+  * Compiler warning fix
+  * Enable link time optimization (LTO)
+  * Restore dh-exec usage
+  * Renumber patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 26 Aug 2022 08:44:28 +0900
+
+unrar-nonfree (1:6.1.7-2) unstable; urgency=medium
+
+  * Add note for CVE-2022-30333
+  * Upgrade Debian standards
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 14 May 2022 03:12:53 +0900
+
+unrar-nonfree (1:6.1.7-1) unstable; urgency=medium
+
+  * New upstream version 6.1.7 (Fixes: CVE-2022-30333)
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Mon, 09 May 2022 19:11:48 +0900
+
+unrar-nonfree (1:6.1.6-3) unstable; urgency=medium
+
+  * Add newline after error message (Closes: #774166)
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Tue, 29 Mar 2022 21:56:44 +0900
+
+unrar-nonfree (1:6.1.6-2) unstable; urgency=medium
+
+  * Drop dh-exec usage
+  * Add PHONY target
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Wed, 16 Mar 2022 23:22:38 +0900
+
+unrar-nonfree (1:6.1.6-1) unstable; urgency=medium
+
+  * New upstream version 6.1.6
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 05 Mar 2022 17:31:03 +0900
+
+unrar-nonfree (1:6.1.5-1) unstable; urgency=medium
+
+  * New upstream version 6.1.5
+  * Rediff patches
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Tue, 22 Feb 2022 23:22:19 +0900
+
+unrar-nonfree (1:6.1.4-1) unstable; urgency=medium
+
+  * New upstream version 6.1.4
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 29 Jan 2022 01:28:41 +0900
+
+unrar-nonfree (1:6.1.3-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Fri, 31 Dec 2021 14:39:15 +0900
+
+unrar-nonfree (1:6.1.3-1) unstable; urgency=medium
+
+  * New upstream version 6.1.3
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Sat, 11 Dec 2021 18:20:32 +0900
+
+unrar-nonfree (1:6.1.2-1) unstable; urgency=medium
+
+  * New upstream version 6.1.2
+  * Update copyright text
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Wed, 17 Nov 2021 20:28:54 +0900
+
+unrar-nonfree (1:6.0.7-6) unstable; urgency=medium
+
+  * Use dpkg snippet to enable cross build
+  * Update notes in manual page (Closes: #578513)
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Wed, 03 Nov 2021 17:18:11 +0900
+
+unrar-nonfree (1:6.0.7-5) unstable; urgency=medium
+
+  * Update debian/copyright to comply with Debian Policy (Closes: #994759)
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Wed, 06 Oct 2021 00:07:34 +0900
+
+unrar-nonfree (1:6.0.7-4) unstable; urgency=medium
+
+  [ Bastian Germann ]
+  * Update manpage to v6.0 (Closes: #994755)
+
+  [ YOKOTA Hiroshi ]
+  * Add license info for specific files (Closes: #994759)
+  * Use machine readable license name
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Tue, 28 Sep 2021 02:06:16 +0900
+
+unrar-nonfree (1:6.0.7-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster
+
+  [ YOKOTA Hiroshi ]
+  * Update standards
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 02 Sep 2021 02:52:04 +0900
+
+unrar-nonfree (1:6.0.7-2) unstable; urgency=medium
+
+  * Add CVE-2018-25018 check
+  * Revert "Use experimental branch while freeze plicy is active"
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Mon, 16 Aug 2021 22:01:13 +0900
+
+unrar-nonfree (1:6.0.7-1) experimental; urgency=medium
+
+  * Fix typo
+  * New upstream version 6.0.7
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Tue, 15 Jun 2021 08:15:30 +0900
+
+unrar-nonfree (1:6.0.6-1) experimental; urgency=medium
+
+  * Update manual page
+  * Add information about configuration file
+  * New upstream version 6.0.6
+  * Use experimental branch while freeze policy is active
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Mon, 17 May 2021 23:11:52 +0900
+
+unrar-nonfree (1:6.0.5-1) unstable; urgency=medium
+
+  * New upstream version 6.0.5
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Tue, 13 Apr 2021 20:53:10 +0900
+
+unrar-nonfree (1:6.0.4-2) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * Update VCS fields.
+
+  [ YOKOTA Hiroshi ]
+  * Add simple test for autopkgtest(1)
+  * Add more non-trivial test
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 08 Apr 2021 08:02:12 +0900
+
+unrar-nonfree (1:6.0.4-1) unstable; urgency=medium
+
+  * New upstream version 6.0.4
+  * Update copyright year
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Thu, 11 Mar 2021 11:57:54 +0900
+
+unrar-nonfree (1:6.0.3-1) unstable; urgency=medium
+
+  [ YOKOTA Hiroshi ]
+  * New upstream version 6.0.1, 6.0.2, 6.0.3
+  * Add library symbols file
+  * Lintian fixes
+  * Display build commands
+  * Move architecture independent development files to "libunrar-headers"
+    package
+  * Update changelog
+  * Export required symbols only for dynamic library
+  * Update patch attribure
+  * No need to use "uupdate"
+  * Upgrade Debian standard
+  * Add hardening/reproducible option
+
+  [ Norbert Preining ]
+  * Adjust dependency to support binNMUs
+  * Adjust copyright file for debian and tag all other files
+  * Update maintainer to tracker ml and put us in uploaders
+
+ -- YOKOTA Hiroshi <yokota.hgml@gmail.com>  Wed, 09 Dec 2020 22:09:14 +0900
+
+unrar-nonfree (1:5.9.4-1) unstable; urgency=medium
+
+  [ YOKOTA Hiroshi ]
+  * Update to v4 format
+  * New upstream version 5.9.4
+  * Use debhelper to build package
+  * Override default action for build & install
+  * Disable patch
+  * Use dh_install to install files
+  * Don't mix normal objects and PIC objects
+  * Use newest compatibility level
+  * Update homepage
+  * Restore soname
+  * Show warnings
+  * Keep debug symbols
+  * Cosmetic fix
+  * Import variables from Debian package builder
+  * Keep output files from "clean" target
+  * Add install files list
+  * Add files list
+  * Use proper library file name
+  * Use dh-exec to alter file name
+  * Install man pages
+  * Use dh_updatealternatives(1)
+  * Update copyright text
+  * Add mode line to help Emacs
+  * Add documents list
+  * No need to use dh_install(1) here
+  * Use all substvars variables
+  * Install static library
+  * Update watch file
+  * No need to use root when building objects
+  * No need PIC option to static lib
+  * Apply man page update patch (Closes: #897946)
+  * Refresh quilt patch (Closes: #866142)
+  * Renumber quilt patch
+  * Refresh quilt patch set
+  * Update patch metadata (Closes: #694611)
+  * Upgrade Debian standards
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Wrap long lines in changelog entries: 1:3.6.8-0ubuntu2.
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 22 Oct 2020 10:12:09 +0900
+
+unrar-nonfree (1:5.6.6-2) unstable; urgency=medium
+
+  * update VCS and my email
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 03 Mar 2019 09:13:40 +0900
 
 unrar-nonfree (1:5.6.6-1) unstable; urgency=medium
 
-  * add myself to uploaders with Martin's consent, 
+  * add myself to uploaders with Martin's consent,
     terminating the salvage process (Closes: #909795)
   * add libunrar5 and libunrar-dev packages
   * bump standards version, no changes necessary
@@ -202,7 +770,8 @@ unrar-nonfree (1:3.5.4-1) unstable; urgency=low
 
 unrar-nonfree (1:3.6.8-0ubuntu2) feisty; urgency=low
 
-  * Fix Maintainer Field to currect maintainer (1:3.5.4-1 was not synced from debian)
+  * Fix Maintainer Field to currect maintainer (1:3.5.4-1 was not synced from
+    debian)
 
  -- Martin Meredith <mez@ubuntu.com>  Tue,  7 Nov 2006 16:41:45 +0000
 

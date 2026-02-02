@@ -1,0 +1,25 @@
+From: YOKOTA Hiroshi <yokota.hgml@gmail.com>
+Date: Fri, 9 Oct 2020 19:26:50 +0900
+Subject: Don't strip debug symbols (Closes: #866142)
+
+Forwarded: not-needed
+Closes: #866142
+Thanks: Jakub Wilk <jwilk@jwilk.net>
+Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=866142
+---
+ makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/makefile b/makefile
+index 669c9df..6f9d7fa 100644
+--- a/makefile
++++ b/makefile
+@@ -9,7 +9,7 @@ CXX=c++
+ CXXFLAGS=-std=c++11
+ LIBFLAGS=-fPIC
+ DEFINES=-D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP
+-STRIP=strip
++STRIP=true
+ AR=ar
+ LDFLAGS+=-pthread
+ DESTDIR=/usr

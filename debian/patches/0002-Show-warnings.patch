@@ -1,0 +1,22 @@
+From: YOKOTA Hiroshi <yokota.hgml@gmail.com>
+Date: Sat, 10 Oct 2020 20:22:25 +0900
+Subject: Show warnings
+
+Forwarded: not-needed
+---
+ makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/makefile b/makefile
+index a309fe0..669c9df 100644
+--- a/makefile
++++ b/makefile
+@@ -6,7 +6,7 @@
+ # Thus we removed it. Clang ARM users can add -march=armv8-a+crypto to enable
+ # ARM NEON crypto.
+ CXX=c++
+-CXXFLAGS=-std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else
++CXXFLAGS=-std=c++11
+ LIBFLAGS=-fPIC
+ DEFINES=-D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP
+ STRIP=strip

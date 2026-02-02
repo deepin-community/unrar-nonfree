@@ -1,0 +1,26 @@
+From: YOKOTA Hiroshi <yokota.hgml@gmail.com>
+Date: Fri, 9 Oct 2020 19:32:19 +0900
+Subject: Import variables from Debian package builder
+
+Forwarded: not-needed
+---
+ makefile | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/makefile b/makefile
+index b00e560..38cafb5 100644
+--- a/makefile
++++ b/makefile
+@@ -6,9 +6,9 @@
+ # Thus we removed it. Clang ARM users can add -march=armv8-a+crypto to enable
+ # ARM NEON crypto.
+ CXX = c++
+-CXXFLAGS = -std=c++11
+-LIBFLAGS = -fPIC
+-DEFINES = -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP
++CXXFLAGS += -std=c++11
++LIBFLAGS += -fPIC
++DEFINES += -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP
+ STRIP = true
+ AR = ar
+ LDFLAGS += -pthread

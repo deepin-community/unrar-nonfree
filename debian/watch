@@ -1,3 +1,4 @@
-version=3
+Version: 5
 
-http://www.rarlab.com/rar_add.htm http://www.rarlab.com/rar/unrarsrc-(.*)\.tar\.gz	debian	uupdate
+Source: https://www.rarlab.com/rar_add.htm
+Matching-Pattern: rar/unrarsrc-(.*)\.tar\.gz
