@@ -1,1 +1,0 @@
-{"project":"unrar-nonfree","type":"","version":"1:5.6.6","hierarchy":"base","priority":"","maintainer":"","packager":"","builddeps":" debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1~), dh-exec, ","homepage":" https://www.rarlab.com/","git":"http://gerrit.uniontech.com/base/unrar-nonfree"}

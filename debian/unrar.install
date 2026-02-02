@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+unrar => usr/bin/unrar-nonfree

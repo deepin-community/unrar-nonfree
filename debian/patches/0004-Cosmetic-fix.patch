@@ -1,0 +1,36 @@
+From: YOKOTA Hiroshi <yokota.hgml@gmail.com>
+Date: Fri, 9 Oct 2020 19:29:22 +0900
+Subject: Cosmetic fix
+
+Forwarded: not-needed
+---
+ makefile | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+diff --git a/makefile b/makefile
+index 6f9d7fa..b00e560 100644
+--- a/makefile
++++ b/makefile
+@@ -5,14 +5,14 @@
+ # 2024.08.19: -march=native isn't recognized on some platforms such as RISCV64.
+ # Thus we removed it. Clang ARM users can add -march=armv8-a+crypto to enable
+ # ARM NEON crypto.
+-CXX=c++
+-CXXFLAGS=-std=c++11
+-LIBFLAGS=-fPIC
+-DEFINES=-D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP
+-STRIP=true
+-AR=ar
+-LDFLAGS+=-pthread
+-DESTDIR=/usr
++CXX = c++
++CXXFLAGS = -std=c++11
++LIBFLAGS = -fPIC
++DEFINES = -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP
++STRIP = true
++AR = ar
++LDFLAGS += -pthread
++DESTDIR = /usr
+ 
+ ##########################
+ 
