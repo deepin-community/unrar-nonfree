@@ -1,3 +1,9 @@
+unrar-nonfree (1:7.2.3-2deepin2) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-14191
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 27 Aug 2026 13:44:49 +0800
+
 unrar-nonfree (1:7.2.3-2deepin1) unstable; urgency=medium
 
   * revert 64-bit time_t transition patch.
