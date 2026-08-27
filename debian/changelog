@@ -1,3 +1,11 @@
+unrar-nonfree (1:7.2.7-1deepin1) unstable; urgency=medium
+
+  * backport: revert 64-bit time_t transition patch
+  * Backport aa42379aee73a3a9fd1f73677e647ef9958129f2 from master:
+    remove t64 dependencies (dpkg-dev build-dep, libunrar5t64 -> libunrar5)
+
+ -- zengwei <zengwei1@uniontech.com>  Thu, 27 Aug 2026 14:20:00 +0800
+
 unrar-nonfree (1:7.2.7-1) unstable; urgency=medium
 
   * New upstream version 7.2.7
